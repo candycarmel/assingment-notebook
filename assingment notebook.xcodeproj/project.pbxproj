@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0B4A749C2CE2472B00FEF998 /* ViewAssignmentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B4A749B2CE2472A00FEF998 /* ViewAssignmentViewController.swift */; };
+		0B4AF7F02CDE4EC200B2D062 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B4AF7EF2CDE4EC200B2D062 /* SettingsViewController.swift */; };
 		0B5762482CD106880053938F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B5762472CD106880053938F /* AppDelegate.swift */; };
 		0B57624A2CD106880053938F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B5762492CD106880053938F /* SceneDelegate.swift */; };
 		0B57624C2CD106880053938F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B57624B2CD106880053938F /* ViewController.swift */; };
@@ -14,9 +16,15 @@
 		0B5762522CD106880053938F /* assingment_notebook.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0B5762502CD106880053938F /* assingment_notebook.xcdatamodeld */; };
 		0B5762542CD1068A0053938F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0B5762532CD1068A0053938F /* Assets.xcassets */; };
 		0B5762572CD1068A0053938F /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 0B5762562CD1068A0053938F /* Base */; };
+		0B57625F2CD10B6C0053938F /* AssingmentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B57625E2CD10B6C0053938F /* AssingmentViewController.swift */; };
+		0B5762612CD10BF80053938F /* Assingment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B5762602CD10BF80053938F /* Assingment.swift */; };
+		0B9047322CD4FA2C002EE5BB /* CellCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B9047312CD4FA2C002EE5BB /* CellCell.swift */; };
+		0BA380802CD2585700550888 /* NewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BA3807F2CD2585700550888 /* NewViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0B4A749B2CE2472A00FEF998 /* ViewAssignmentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewAssignmentViewController.swift; sourceTree = "<group>"; };
+		0B4AF7EF2CDE4EC200B2D062 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		0B5762442CD106880053938F /* assingment notebook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "assingment notebook.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0B5762472CD106880053938F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0B5762492CD106880053938F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -26,6 +34,10 @@
 		0B5762532CD1068A0053938F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0B5762562CD1068A0053938F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0B5762582CD1068A0053938F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0B57625E2CD10B6C0053938F /* AssingmentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssingmentViewController.swift; sourceTree = "<group>"; };
+		0B5762602CD10BF80053938F /* Assingment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Assingment.swift; sourceTree = "<group>"; };
+		0B9047312CD4FA2C002EE5BB /* CellCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellCell.swift; sourceTree = "<group>"; };
+		0BA3807F2CD2585700550888 /* NewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +74,12 @@
 				0B5762492CD106880053938F /* SceneDelegate.swift */,
 				0B57624B2CD106880053938F /* ViewController.swift */,
 				0B57624D2CD106880053938F /* Main.storyboard */,
+				0B4A749B2CE2472A00FEF998 /* ViewAssignmentViewController.swift */,
+				0B4AF7EF2CDE4EC200B2D062 /* SettingsViewController.swift */,
+				0B9047312CD4FA2C002EE5BB /* CellCell.swift */,
+				0BA3807F2CD2585700550888 /* NewViewController.swift */,
+				0B57625E2CD10B6C0053938F /* AssingmentViewController.swift */,
+				0B5762602CD10BF80053938F /* Assingment.swift */,
 				0B5762532CD1068A0053938F /* Assets.xcassets */,
 				0B5762552CD1068A0053938F /* LaunchScreen.storyboard */,
 				0B5762582CD1068A0053938F /* Info.plist */,
@@ -142,9 +160,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				0B57624C2CD106880053938F /* ViewController.swift in Sources */,
+				0B9047322CD4FA2C002EE5BB /* CellCell.swift in Sources */,
 				0B5762482CD106880053938F /* AppDelegate.swift in Sources */,
+				0BA380802CD2585700550888 /* NewViewController.swift in Sources */,
 				0B5762522CD106880053938F /* assingment_notebook.xcdatamodeld in Sources */,
 				0B57624A2CD106880053938F /* SceneDelegate.swift in Sources */,
+				0B4A749C2CE2472B00FEF998 /* ViewAssignmentViewController.swift in Sources */,
+				0B5762612CD10BF80053938F /* Assingment.swift in Sources */,
+				0B57625F2CD10B6C0053938F /* AssingmentViewController.swift in Sources */,
+				0B4AF7F02CDE4EC200B2D062 /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
